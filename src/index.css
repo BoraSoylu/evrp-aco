@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .settings-input {
+    @apply whitespace-nowrap text-xs sm:text-base 2xl:text-2xl  h-5 2xl:h-7 text-center mt-1 block w-11 2xl:w-[4.5rem] rounded-sm border-gray-300 shadow-sm ring-1 ring-amber-800 focus:ring-amber-900 
+  }
+  .settings-input-label {
+    @apply whitespace-nowrap text-xs sm:text-base 2xl:text-2xl block font-medium text-gray-700
+  }
+  .settings-label-input-wrapper {
+    @apply flex items-center w-full justify-between mx-2 gap-4 px-3
+  }
+}
