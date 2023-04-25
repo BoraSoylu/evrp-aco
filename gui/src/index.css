@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .point {
+    @apply w-[12px] h-[12px] rounded-full bg-blue-600 flex items-center justify-center text-white text-[0.5rem]
+  }
+  .charger{
+    @apply w-[12px] h-[12px] bg-green-600 flex items-center justify-center text-white text-[0.5rem]
+  }
+  .btn{
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded
+  }
+}

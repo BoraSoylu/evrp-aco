@@ -1,0 +1,16 @@
+{
+  "points": [],
+  "chargers": [],
+  "settings": {
+    "MAX_BATTERY": 100,
+    "MIN_ALLOWED_BATTERY": 1,
+    "RECHARGE_RATE": null,
+    "B_DRAIN_PER_DISTANCE": 1,
+    "EVAPORATION_RATE": 0,
+    "SCOUT_ANT_COUNT": 100,
+    "MAIN_ANT_COUNT": 100
+  },
+  "final_paths": [],
+  "path_journeys": [],
+  "pheromone_updates": []
+}

@@ -1,0 +1,16 @@
+{
+  "points": [[92, 25], [7, 1], [13, 64], [96, 34], [67, 75], [92, 14], [35, 60]],
+  "chargers": [[10, 93], [43, 1]],
+  "settings": {
+    "MAX_BATTERY": 100,
+    "MIN_ALLOWED_BATTERY": 1,
+    "RECHARGE_RATE": null,
+    "B_DRAIN_PER_DISTANCE": 1,
+    "EVAPORATION_RATE": 0,
+    "SCOUT_ANT_COUNT": 100,
+    "MAIN_ANT_COUNT": 100
+  },
+  "final_paths": [{ "0": [0, 5, 3, -2, 2, -1, 4, 6, 1, 0] }],
+  "path_journeys":[{"0":  [0, 5, 3, -2, 2, -1, 4, 6, 1, 0]}],
+  "pheromone_updates":[{"0": [0, 5, 3, -2, 2, -1, 4, 6, 1, 0]}]
+}
